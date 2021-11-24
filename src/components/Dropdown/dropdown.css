@@ -1,0 +1,46 @@
+.DropDown {
+  display: inline-flex;
+  align-items: center;
+}
+.DropDownLabel {
+  font-size: 18px;
+  margin-right: 10px;
+  color: white;
+  font-weight: lighter;
+  filter: opacity(0.6);
+}
+
+.DropDownSelectBox {
+  width: 200px;
+  overflow: hidden;
+  border: 1px solid #000;
+  position: relative;
+  padding: 10px 0;
+  color: white;
+}
+.DropDownSelectBox:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #f00;
+  position: absolute;
+  top: 40%;
+  right: 5px;
+  content: "";
+  z-index: 98;
+}
+.DropDownSelect {
+  border: none;
+  outline: none;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  margin: 0;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  color: white;
+}

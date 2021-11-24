@@ -1,0 +1,102 @@
+.MovieListItemMenu {
+  position: relative;
+}
+
+.MovieListItemMenuToggle {
+  background: #2a202d;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.196596);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+  color: white;
+}
+
+.MovieListItemMenuControls {
+  list-style: none;
+}
+
+.ControlsSpan {
+  transition: #f65261 0.15s ease-in-out;
+  color: rgba(255, 255, 255, 0.8);
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ControlsSpan:hover {
+  color: rgba(255, 255, 255, 1);
+  background: #f65261;
+}
+
+.toast {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 190px;
+  background: rgba(35, 35, 35, 0.918051);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1), 0px 2px 10px rgba(0, 0, 0, 0.1),
+    0px 10px 20px rgba(0, 0, 0, 0.1), 0px 10px 50px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(27.1828px);
+  border-radius: 4px;
+}
+
+.toast-header {
+  background: none;
+  padding: 5px 10px;
+  border: none;
+}
+
+.toast-header .close {
+  margin-left: auto;
+}
+
+.toast-body {
+  padding: 0 0 5px;
+}
+
+.close {
+  position: relative;
+  background: none !important;
+  opacity: 1;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: none;
+  color: rgba(35, 35, 35, 0.918051);
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:hover:before,
+.close:hover:after {
+  background: #f65261;
+}
+
+.close:before,
+.close:after {
+  transition: #fff 0.15s ease-in-out;
+  position: absolute;
+  left: 50%;
+  top: 2px;
+  transform: translate(-50%, -50%);
+  content: "";
+  height: 14px;
+  width: 1px;
+  background: #fff;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}

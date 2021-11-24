@@ -1,0 +1,36 @@
+.GenreMultiSelect .searchBox {
+  color: white;
+  font-size: 20px;
+}
+
+.multiselect-container .search-wrapper {
+  border: none;
+  background: rgba(50, 50, 50, 0.948044);
+  border-radius: 4px;
+}
+
+.multiselect-container .optionListContainer {
+  background: rgba(35, 35, 35, 0.918051);
+  border-radius: 4px;
+}
+
+.multiselect-container ul {
+  border: none;
+  color: white;
+}
+
+.multiselect-container .option {
+  background: none;
+}
+
+.multiSelectContainer li:hover {
+  background: rgba(50, 50, 50, 0.948044);
+}
+
+.multiselect-container .chip {
+  background: #f65261;
+}
+
+.icon_down_dir {
+  right: 20px;
+}

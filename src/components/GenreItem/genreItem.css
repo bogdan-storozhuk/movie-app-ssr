@@ -1,0 +1,15 @@
+.genreItemMessage {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  cursor: pointer;
+}
+
+.genreItemMessage:hover {
+  background-color: #111;
+}
+
+.selectedGenre {
+  border-bottom: 4px solid #f65261;
+}

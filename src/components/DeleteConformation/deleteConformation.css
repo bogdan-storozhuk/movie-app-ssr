@@ -1,0 +1,14 @@
+.DeleteConformationMessage {
+  color: white;
+  margin-bottom: 50px;
+}
+.DeleteConformationButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+.DeleteConformationButton {
+  padding: 10px 40px;
+  background: #f65261;
+  border: none;
+}
