@@ -1,0 +1,26 @@
+.MovieFormMovieFormFields {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.MovieFormControls {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}
+
+.MovieFormControlsSubmit {
+  margin-left: 20px;
+  background: #f65261;
+  border: none;
+  padding: 10px 40px;
+}
+
+.MovieFormControlsReset {
+  background: transparent;
+  border-color: #f65261;
+  color: #f65261;
+  padding: 10px 40px;
+}
