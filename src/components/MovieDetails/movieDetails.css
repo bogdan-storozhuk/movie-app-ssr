@@ -1,0 +1,51 @@
+.MovieDetails {
+  display: grid;
+  grid-template-columns: 323px auto;
+  gap: 50px;
+}
+
+.MovieDetailsContainer {
+  min-height: 486px;
+  min-width: 323px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+.MovieDetailsInfo {
+  margin: 10px;
+}
+
+.MovieDetailsCircle {
+  display: inline-flex;
+  border: solid white 1px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.MovieDetailsScore {
+  margin: auto;
+  font-size: 40px;
+}
+
+.MovieDetailsInfoTimeAndReleaseDate {
+  display: flex;
+  color: #f65261;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.MovieDetailsInfoTime {
+  margin-left: 40px;
+}
+
+.MovieDetailsInfoOverview {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.MovieDetailsInfoTagline {
+  color: rgba(255, 255, 255, 0.5);
+}

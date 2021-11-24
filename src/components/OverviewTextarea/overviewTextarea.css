@@ -1,0 +1,14 @@
+.OverviewTextarea {
+  color: white;
+  background: rgba(50, 50, 50, 0.948044);
+  border: none;
+  height: 45px;
+  font-size: 20px;
+  padding-left: 10px;
+  resize: none;
+  height: 150px;
+}
+.OverviewTextarea:focus {
+  outline: none !important;
+  border: 1px solid #f65261;
+}

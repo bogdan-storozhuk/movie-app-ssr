@@ -1,0 +1,10 @@
+.SearchButton {
+  background: transparent;
+  border: none;
+}
+
+.SearchButtonIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

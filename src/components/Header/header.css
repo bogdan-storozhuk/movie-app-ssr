@@ -1,0 +1,29 @@
+.Header:before {
+  content: ""; /* CHANGE HERE! */
+  position: absolute; /* CHANGE HERE! */
+  z-index: -1; /* CHANGE HERE! */
+
+  display: block;
+  /* background: url("../../assets/img/best-movies1.jpg") no-repeat; */
+  background-size: cover;
+  -webkit-filter: blur(5px) brightness(0.5);
+  -moz-filter: blur(5px) brightness(0.5);
+  -o-filter: blur(5px) brightness(0.5);
+  -ms-filter: blur(5px) brightness(0.5);
+  filter: blur(5px) brightness(0.5);
+  width: 100%;
+  height: 600px;
+}
+.Header {
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+}
+.HeaderPanel {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+.HeaderPanelWrapper {
+  height: 20px;
+}
